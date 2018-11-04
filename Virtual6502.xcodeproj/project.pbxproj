@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0B9151A21760CDA003EC05A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0B9151921760CDA003EC05A /* main.cpp */; };
-		C0B9152221760CF8003EC05A /* CPU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0B9152021760CF8003EC05A /* CPU.cpp */; };
+		C007ED6E218EAF200091986E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007ED6D218EAF200091986E /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C0B9151421760CDA003EC05A /* CopyFiles */ = {
+		C007ED68218EAF200091986E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C0B9151621760CDA003EC05A /* Virtual6502 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Virtual6502; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0B9151921760CDA003EC05A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C0B9152021760CF8003EC05A /* CPU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPU.cpp; sourceTree = "<group>"; };
-		C0B9152121760CF8003EC05A /* CPU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPU.hpp; sourceTree = "<group>"; };
+		C007ED6A218EAF200091986E /* Virtual6502 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Virtual6502; sourceTree = BUILT_PRODUCTS_DIR; };
+		C007ED6D218EAF200091986E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C0B9151321760CDA003EC05A /* Frameworks */ = {
+		C007ED67218EAF200091986E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,28 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C0B9150D21760CDA003EC05A = {
+		C007ED61218EAF200091986E = {
 			isa = PBXGroup;
 			children = (
-				C0B9151821760CDA003EC05A /* Virtual6502 */,
-				C0B9151721760CDA003EC05A /* Products */,
+				C007ED6C218EAF200091986E /* Virtual6502 */,
+				C007ED6B218EAF200091986E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C0B9151721760CDA003EC05A /* Products */ = {
+		C007ED6B218EAF200091986E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0B9151621760CDA003EC05A /* Virtual6502 */,
+				C007ED6A218EAF200091986E /* Virtual6502 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C0B9151821760CDA003EC05A /* Virtual6502 */ = {
+		C007ED6C218EAF200091986E /* Virtual6502 */ = {
 			isa = PBXGroup;
 			children = (
-				C0B9151921760CDA003EC05A /* main.cpp */,
-				C0B9152021760CF8003EC05A /* CPU.cpp */,
-				C0B9152121760CF8003EC05A /* CPU.hpp */,
+				C007ED6D218EAF200091986E /* main.swift */,
 			);
 			path = Virtual6502;
 			sourceTree = "<group>";
@@ -70,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0B9151521760CDA003EC05A /* Virtual6502 */ = {
+		C007ED69218EAF200091986E /* Virtual6502 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0B9151D21760CDA003EC05A /* Build configuration list for PBXNativeTarget "Virtual6502" */;
+			buildConfigurationList = C007ED71218EAF200091986E /* Build configuration list for PBXNativeTarget "Virtual6502" */;
 			buildPhases = (
-				C0B9151221760CDA003EC05A /* Sources */,
-				C0B9151321760CDA003EC05A /* Frameworks */,
-				C0B9151421760CDA003EC05A /* CopyFiles */,
+				C007ED66218EAF200091986E /* Sources */,
+				C007ED67218EAF200091986E /* Frameworks */,
+				C007ED68218EAF200091986E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -84,54 +79,54 @@
 			);
 			name = Virtual6502;
 			productName = Virtual6502;
-			productReference = C0B9151621760CDA003EC05A /* Virtual6502 */;
+			productReference = C007ED6A218EAF200091986E /* Virtual6502 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C0B9150E21760CDA003EC05A /* Project object */ = {
+		C007ED62218EAF200091986E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = SuperEmulator;
 				TargetAttributes = {
-					C0B9151521760CDA003EC05A = {
-						CreatedOnToolsVersion = 10.0;
+					C007ED69218EAF200091986E = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = C0B9151121760CDA003EC05A /* Build configuration list for PBXProject "Virtual6502" */;
+			buildConfigurationList = C007ED65218EAF200091986E /* Build configuration list for PBXProject "Virtual6502" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C0B9150D21760CDA003EC05A;
-			productRefGroup = C0B9151721760CDA003EC05A /* Products */;
+			mainGroup = C007ED61218EAF200091986E;
+			productRefGroup = C007ED6B218EAF200091986E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0B9151521760CDA003EC05A /* Virtual6502 */,
+				C007ED69218EAF200091986E /* Virtual6502 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C0B9151221760CDA003EC05A /* Sources */ = {
+		C007ED66218EAF200091986E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0B9152221760CF8003EC05A /* CPU.cpp in Sources */,
-				C0B9151A21760CDA003EC05A /* main.cpp in Sources */,
+				C007ED6E218EAF200091986E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C0B9151B21760CDA003EC05A /* Debug */ = {
+		C007ED6F218EAF200091986E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,10 +182,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		C0B9151C21760CDA003EC05A /* Release */ = {
+		C007ED70218EAF200091986E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,49 +236,53 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		C0B9151E21760CDA003EC05A /* Debug */ = {
+		C007ED72218EAF200091986E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PGNG7584J8;
+				DEVELOPMENT_TEAM = FQVA73S8GZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
-		C0B9151F21760CDA003EC05A /* Release */ = {
+		C007ED73218EAF200091986E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PGNG7584J8;
+				DEVELOPMENT_TEAM = FQVA73S8GZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0B9151121760CDA003EC05A /* Build configuration list for PBXProject "Virtual6502" */ = {
+		C007ED65218EAF200091986E /* Build configuration list for PBXProject "Virtual6502" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0B9151B21760CDA003EC05A /* Debug */,
-				C0B9151C21760CDA003EC05A /* Release */,
+				C007ED6F218EAF200091986E /* Debug */,
+				C007ED70218EAF200091986E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0B9151D21760CDA003EC05A /* Build configuration list for PBXNativeTarget "Virtual6502" */ = {
+		C007ED71218EAF200091986E /* Build configuration list for PBXNativeTarget "Virtual6502" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C0B9151E21760CDA003EC05A /* Debug */,
-				C0B9151F21760CDA003EC05A /* Release */,
+				C007ED72218EAF200091986E /* Debug */,
+				C007ED73218EAF200091986E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C0B9150E21760CDA003EC05A /* Project object */;
+	rootObject = C007ED62218EAF200091986E /* Project object */;
 }
